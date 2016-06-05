@@ -10,7 +10,8 @@
   </head>
 
   <body>
-    <div ng-controller="NewsSummaryController as controller">
+    <div id=headlines ng-controller="NewsSummaryController as controller">
+      <p>{{controller.headlines}}
       <p>{{controller.greeting}}</p>
     </div>
   </body>
