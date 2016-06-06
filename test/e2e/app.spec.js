@@ -12,8 +12,8 @@ describe("app", function() {
       response: {
         data: {
           response: {
-            content:
-            { webTitle: 'alex-salmond-speech-first-minister-scottish-independence-eu-currency'}
+            results:
+            [{ webTitle: 'alex-salmond-speech-first-minister-scottish-independence-eu-currency'}]
 
           }
         }
