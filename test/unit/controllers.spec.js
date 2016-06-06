@@ -14,7 +14,7 @@ describe("NewsSummaryController", function() {
   it('fetches a headlines', function(){
     var headline1 = {headline: 'alex-salmond-speech-first-minister-scottish-independence-eu-currency'};
     controller.getAll().then(function(headlines){
-      console.log(headlines)
+      console.log(headlines);
       expect(controller.headlines).toEqual([headline1]);
     });
   });
